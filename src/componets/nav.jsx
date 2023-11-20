@@ -5,7 +5,7 @@ const Nav = () => {
         <>
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-            <header class="d-flex justify-content-center py-3">
+            <header class="col-md-12 d-flex justify-content-between py-3">
                 <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
                     <img src={logoImage} alt="Logo" width="100" height="50" />
                 </a>

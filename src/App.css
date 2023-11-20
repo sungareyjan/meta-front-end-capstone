@@ -42,3 +42,88 @@
   font-weight: bold;
   text-transform: uppercase;
 }
+/*============================
+        Hero-section
+==============================*/
+#hero-section{
+  background-color: #495E57;
+}
+#hero-section h1{
+  color:#F4CE14 ;
+}
+#hero-section h6{
+  color:#f4f4f4;
+  padding: 10px 0px 10px;
+  font-size: x-large;
+}
+#hero-section p{
+  color:#f4f4f4 ;
+}
+#hero-section .btn{
+  background-color: #F4CE14;
+  border-color:#F4CE14 ;
+  color:black;
+  font-weight: bold;
+}
+
+#hero-section img{
+  border-radius: 19px;
+  height: 350px;
+  overflow: hidden;
+  z-index: 2;
+}
+
+/*============================
+        High-lights
+==============================*/
+#high-lights .btn{
+  background-color: #F4CE14;
+  border-color:#F4CE14 ;
+  color:black;
+  font-weight: bold;
+}
+
+#high-lights .card{
+  background-color: #A9C9BE;
+}
+#high-lights img{
+  width: auto;
+  height: 300px;
+  object-fit: cover;
+}
+
+/*============================
+        Testimonials
+==============================*/
+#testimonials {
+  background-color: #EDEFEE;
+}
+#testimonials .card{
+  background-color: #ffffff;
+}
+/*============================
+            About
+==============================*/
+#about .card{
+  background-color: #EDEFEE;
+}
+#about img{
+  width: auto;
+  height: 300px;
+  object-fit: cover;
+}
+/*============================
+            Footer
+==============================*/
+footer {
+  background-color: #A9C9BE;
+}
+footer p{
+  color: #333333;
+}
+footer  ul li a{
+  color: #333333;
+}
+footer h5{
+  color: #333333;
+}

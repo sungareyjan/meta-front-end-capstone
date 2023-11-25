@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroImage from '../icons_assets/restauranfood.jpg';
+import HeroImage from '../images/restauranfood.jpg';
 
 const About = () => {
   return (

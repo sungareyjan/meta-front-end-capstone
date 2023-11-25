@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroImage from '../icons_assets/Logo.svg';
+import HeroImage from '../images/Logo.svg';
 const Testimonials = () => {
   return (
     <>

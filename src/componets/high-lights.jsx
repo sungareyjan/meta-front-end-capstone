@@ -1,7 +1,7 @@
 import React from 'react';
-import Salad from '../icons_assets/greek salad.jpg';
-import Bruchetta from '../icons_assets/bruchetta.svg';
-import Lemon from '../icons_assets/lemon dessert.jpg';
+import Salad from '../images/greek salad.jpg';
+import Bruchetta from '../images/bruchetta.svg';
+import Lemon from '../images/lemon dessert.jpg';
 
 const HighLights = () => {
   return (

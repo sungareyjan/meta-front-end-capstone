@@ -12,3 +12,7 @@ It's important to clarify that, at its current state, the website's primary func
 ## Screenshots kits
 Here are some screeenshots of the application guid of development.
 ![little lemon website table booking](/src/Images/Ui kit.png)
+
+# A
+\\nimation
+https://blog.devgenius.io/how-to-add-scrolling-animations-to-reactjs-by-using-aos-cefa020a1604

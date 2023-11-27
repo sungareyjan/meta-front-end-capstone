@@ -9,10 +9,21 @@ Focused on enhancing the user experience on the Little Lemon Website, the projec
 
 It's important to clarify that, at its current state, the website's primary functional feature is the "Reserve a Table" functionality. While the design elements showcase the aesthetic aspect, the project underscores a dedicated focus on the practical application of React and API utilization, offering a solid foundation for future feature expansion and refinement
 
+## Screenshots page
+![little lemon website table booking](/src/images/landing-page.png)
+
 ## Screenshots kits
 Here are some screeenshots of the application guid of development.
-![little lemon website table booking](/src/Images/Ui kit.png)
+![little lemon website table booking](/src/images/Ui%20kit.png)
 
-# A
-\\nimation
+# Animation
 https://blog.devgenius.io/how-to-add-scrolling-animations-to-reactjs-by-using-aos-cefa020a1604
+
+### Tech Stack: Third Party Libraries & APIs:
+- HTML, CSS
+- JSX
+- React
+- aos
+- react-router-dom
+- Meta front-end table-booking API
+

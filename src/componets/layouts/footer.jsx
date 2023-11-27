@@ -1,14 +1,14 @@
 import React from 'react';
-import logoImage from '../images/Logo .svg';
+import logoImage from '../../images/Logo .svg';
 const Footer = () => {
     return (
         <>
-        <footer id="footer" data-aos="fade-up"data-aos-delay="100">
+        <footer id="footer" className="mt-5" data-aos="fade-up"data-aos-delay="100">
             <div className="container" >
-                <div className="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top ">
+                <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 py-5 border-top gx-5 ">
                     <div className="col-xl-3 col-lg-6"  data-aos="fade-up"data-aos-delay="110">
-                        <a href="/" className="d-flex align-items-center mb-3 link-dark text-decoration-none">
-                            <img src={logoImage} alt="Logo" width="160" height="70" />
+                        <a href="/" className="d-flex align-items-center link-dark text-decoration-none">
+                            <img src={logoImage} alt="Logo" width="200"  />
                         </a>
                         <p>We are family owned Mediterraneran restaurant, focused on traditional recipes served with a modern twist.</p>
                     </div>

@@ -1,9 +1,9 @@
 import React from 'react';
-
+import Nav  from './nav.jsx';
 const Header = () => {
   return (
-    <header className="container">
-      <h1>Your Website Name</h1>
+    <header >
+      <Nav/>
     </header>
   );
 };

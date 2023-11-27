@@ -1,15 +1,15 @@
 import React from 'react';
-import Salad from '../images/greek salad.jpg';
-import Bruchetta from '../images/bruchetta.svg';
-import Lemon from '../images/lemon dessert.jpg';
+import Salad from '../../images/greek salad.jpg';
+import Bruchetta from '../../images/bruchetta.svg';
+import Lemon from '../../images/lemon dessert.jpg';
 
 const HighLights = () => {
   return (
     <>
-      <section id="high-lights">
+      <section id="menu">
         <div className="container">
           <div className="row align-items-xl-center gy-5 my-5">
-            <div className="col-xl-12 d-flex justify-content-between mb-5"  data-aos="fade-up"  data-aos-delay="100">
+            <div className="col-xl-12 d-flex justify-content-between"  data-aos="fade-up"  data-aos-delay="100">
               <h1><strong>This weeks Specials!</strong></h1>
               <button type="button" className="btn">Reserve table</button>
             </div>
@@ -21,7 +21,7 @@ const HighLights = () => {
                     <h5 className="card-title"><strong>Greek salad</strong></h5>
                     <h5 className="card-title">$ 12.99</h5>
                   </div>
-                  <p className="card-text">The famous greek salad of crispy lettuce,peppers, olives and our Chicago style fota cheese, garnished with crunchy garlic and rosemary croutons</p>
+                  <p className="card-text">The famous greek salad of crispy lettuce,peppers, olives and our fota cheese, garnished with crunchy garlic and rosemary croutons</p>
                   <button type="button" className="btn">Order Now</button>
                 </div>
               </div>
@@ -35,7 +35,7 @@ const HighLights = () => {
                     <h5 className="card-title"><strong>Bruchetta</strong></h5>
                     <h5 className="card-title">$ 5.99</h5>
                   </div>
-                  <p className="card-text">Our Bruchetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.</p>
+                  <p className="card-text">Our famous Bruchetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.</p>
                   <button type="button" className="btn">Order Now</button>
                 </div>
               </div>

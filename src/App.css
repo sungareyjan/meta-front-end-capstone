@@ -1,48 +1,30 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 body{
   margin: 0%;
   padding: 0%;
+  scroll-behavior: smooth;
 }
 main{
-  margin-top: 88px;
+  margin-top: 66px;
 }
+
+* {
+  font-family: "Markazi Text", "Karla", serif;
+}
+
+label,
+input,
+select,
+textarea,
+p {
+  font-family: "Karla";
+  font-size: 16px;
+  line-height: 1.5;
+  overflow-wrap: break-word;
+}
+:root {
+  scroll-behavior: smooth;
+}
+
 /*============================
         Navbar
 ==============================*/
@@ -77,6 +59,7 @@ nav ul li {
   display: inline-block;
   padding: 1em;
   border-radius: 8px;
+  padding: 10px 10px 10px 10px;
 }
 
 nav ul li a{
@@ -84,7 +67,7 @@ nav ul li a{
 }
 
 nav li:hover{
-  background-color: #000;
+  background-color: #495E57;
   color: #ffffff;
 }
 nav li:hover a{
@@ -176,18 +159,6 @@ nav li:hover a{
     background: #495E57 ;
   }
 
-  .banner-img{
-    display: none;
-  }
-
-  form, .comfirm{
-    padding: 10px 8%;
-  }
-
-
-  .header section, .menu-container{
-    padding: 10px 8%;
-  }
   .menu-container{
     margin: 20px 0;
   }
@@ -198,27 +169,22 @@ nav li:hover a{
   .menu-items{
     width: 100%;
   }
-
-  footer section{
-    padding: 10px 8%;
-    flex-direction: column;
-  }
-  .company-info p{
-    width: 100%;
-  }
 }
 
 .hidden{
   display: none;
 }
+
 /*============================
         Hero-section
 ==============================*/
 #hero-section{
   background-color: #495E57;
+  min-height: 100vh;
 }
 #hero-section h1{
   color:#F4CE14 ;
+  font-size: 64px;
 }
 #hero-section h6{
   color:#f4f4f4;
@@ -226,7 +192,10 @@ nav li:hover a{
   font-size: x-large;
 }
 #hero-section p{
-  color:#f4f4f4 ;
+  color:#f4f4f4;
+  font-size: 18px;
+  line-height: 1.5;
+  overflow-wrap: break-word;
 }
 #hero-section .btn{
   background-color: #F4CE14;
@@ -240,12 +209,13 @@ nav li:hover a{
   cursor: pointer;
 }
 
-
 #hero-section img{
   border-radius: 8px;
-  height: 350px;
+  display: block;
+  height: 550px;
   width: auto;
   overflow: hidden;
+  object-fit: cover;
   z-index: 2;
 }
 
@@ -253,108 +223,120 @@ nav li:hover a{
   transition: transform 0.9s ease;
   transform: scale(1.05);
 }
+
+@media screen and (max-width: 990px) {
+  #hero-section img {
+    display: none;
+  }
+}
 /*============================
-        High-lights
+        Menu
 ==============================*/
-#high-lights .btn{
+#menu{
+  /* height: 100vh; */
+}
+#menu .btn{
   background-color: #F4CE14;
   border-color:#F4CE14 ;
   color:black;
   font-weight: bold;
 }
-#high-lights .btn:hover{
+#menu .btn:hover{
   background-color: #ffde39;
   border-color:#ffde39 ;
   cursor: pointer;
 }
 
-#high-lights .card{
+#menu .card{
   background-color: #A9C9BE;
 }
-#high-lights .card:hover{
+#menu .card:hover{
   transition: transform 0.9s ease;
   transform: scale(1.05);
 }
-#high-lights img{
+#menu img{
   width: auto;
   height: 300px;
   object-fit: cover;
 }
 
 /*============================
-        Testimonials
+        services
 ==============================*/
-#testimonials {
+#services {
   background-color: #EDEFEE;
+  /* height: 100vh; */
 }
-#testimonials .card{
+#services .card{
   background-color: #ffffff;
 }
-#testimonials .card:hover{
+#services .card:hover{
   background-color: #ffffff;
   cursor: pointer;
   transition: transform 0.9s ease;
   transform: scale(1.05);
 }
-#testimonials img {
+#services img {
   width: auto;
   height: 300px;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 /*============================
             About
 ==============================*/
-#about {
-  position: relative;
-  width: 100%;
-  height: 60vh; /* Set the height as needed */
+#about img{
+  width: auto;
+  height: 300px;
+  object-fit: cover;
 }
 
 #about  p{
   padding: 10px 0px 10px 0px;
 }
 
-.image-container {
-  position: relative;
-  width: 100%;
-}
 
-/* Style for each image */
-.image-container img {
-  position:absolute;
-  max-width: 80%;
-  height: auto;
-  display: block;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  margin: 0 auto;
-}
-.first-image {
-  transform: translate(0px, 80px);
-}
 
-.first-image:hover {
-  cursor: pointer;
-  z-index: 3;
-}
-.second-image {
-  z-index: 2;
-  cursor: pointer;
-  transform: translate(120px, -80px);
-}
-
-@media screen and (max-width: 1200px) and (min-width: 600px) {
-  #about {
-    position: relative;
+@media screen and (min-width: 1200px)  {
+    #about {
+    position:relative;
     width: 100%;
-    height: 100vh;
+    min-height: 80vh;
+  }
+  #about .card {
+    background-color: transparent;
+    border: transparent;
   }
   .image-container {
-    height: auto;
-    padding: 20px 0px 20px 0px;
-    max-width: 100%; /* Full width for smaller screens */
+    position: relative;
+    width: 100%;
+    border: 0px;
   }
+  /* Style for each image */
+  .image-container img {
+    position:absolute;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 0 auto;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .first-image {
+    transform: translate(0px, 80px);
+  }
+  .first-image:hover {
+    cursor: pointer;
+    z-index: 3;
+  }
+  .second-image {
+    z-index: 2;
+    cursor: pointer;
+    transform: translate(120px, -80px);
+  }
+
 }
 
 /*============================
